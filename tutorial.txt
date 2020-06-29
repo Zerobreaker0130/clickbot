@@ -1,0 +1,32 @@
+Tutorial
+
+1. Join here : 
+	https://t.me/Zcash_click_bot?start=SrlO
+	https://t.me/Dogecoin_click_bot?start=wiVR
+	https://t.me/BitcoinClick_bot?start=HkbS
+	https://t.me/BCH_clickbot?start=eeN6
+	https://t.me/Litecoin_click_bot?start=5hQa
+	
+2. Download Termux, Quickedit for editing the files and X-plorer manager so you can extract the file.
+
+3. After installing X-plorer manager, extract the downloaded file, I prefer to you extract it to Internal Storage->Download
+
+4. Inside the Clickbot file, open bot.sh using Quickedit
+
+5. Put your telegram number there eg. python main.py +639xxxxxxx bch
+
+6. Open cfg.json using Quickedit then put your crypto address on the right currency
+
+7. Open termux, type all this every line:
+
+	pkg update && pkg upgrade
+	pkg install python
+	pip install --upgrade pip
+	termux-setup-storage
+	cd storage/downloads/clickbot
+	pip install -r requirements.txt
+
+8. run the script command:
+
+	sh bot.sh
+	
